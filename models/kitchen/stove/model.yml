@@ -1,0 +1,31 @@
+name: "Stove"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A stove."
+properties:
+  item:
+    type: FURNACE
+  entity-collision-threshold: 0.99
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  side: # Part name from model
+    material: IRON_BLOCK # Minecraft Material
+    interaction: FURNACE
+  onkapi: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  cam: # Part name from model
+    material: GLASS_PANE # Minecraft Material
+  black: # Part name from model
+    material: BLAST_FURNACE # Minecraft Material
+  black2: # Part name from model
+    material: BLACK_CONCRETA # Minecraft Material
+  siyahdesen: # Part name from model
+    material: COAL_BLOCK # Minecraft Material
+  button: # Part name from model
+    material: GRAY_SHULKER_BOX # Minecraft Material
+  top: # Part name from model
+    material: COAL_BLOCK # Minecraft Material
+  top2: # Part name from model
+    material: ANVIL # Minecraft Material
+  yemek: # Part name from model
+    material: MUTTON # Minecraft Material

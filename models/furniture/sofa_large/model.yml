@@ -1,0 +1,34 @@
+name: "Large Sofa"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A large Sofa."
+properties:
+  item:
+    type: RED_WOOL
+  entity-collision-threshold: 0.8 
+  block-collision-threshold: 0.7
+parameters:
+  color:
+    default: RED
+    values: "%colors%"
+    description: Sofa color
+  wood:
+    default: OAK
+    values: "%wood types%"
+    description: Frame Wood Type
+parts: # You can override default parts from models here
+  cushion: # Part name from model
+    material: <color>_WOOL # Minecraft Material
+  sit: # Part name from model
+    material: <color>_WOOL
+    interaction: SIT
+  wood: # Part name from model
+    material: STRIPPED_<wood>_LOG # Minecraft Material
+
+
+
+
+
+
+
+

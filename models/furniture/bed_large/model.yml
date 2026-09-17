@@ -1,0 +1,31 @@
+name: "Large Bed"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A Large Bed."
+properties:
+  item:
+    type: WHITE_BED
+  entity-collision-threshold: 0.9
+  block-collision-threshold: 0.3 
+parameters:
+  color:
+    default: WHITE
+    values: "%colors%"
+    description: Bed color
+  pillow:
+    default: WHITE
+    values: "%colors%"
+    description: Pillow color
+  wood:
+    default: OAK
+    values: "%wood types%"
+    description: Frame Wood Type
+parts: # You can override default parts from models here
+  pillow: # Part name from model
+    material: <pillow>_WOOL # Minecraft Material
+  sit: # Part name from model
+    interaction: SIT
+  wood: # Part name from model
+    material: STRIPPED_<wood>_LOG # Minecraft Material
+  sheet: # Part name from model
+    material: <color>_WOOL # Minecraft Material

@@ -1,0 +1,49 @@
+name: "Small Sofa"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A small Sofa."
+properties:
+  item:
+    type: BLUE_WOOL
+  entity-collision-threshold: 0.9
+  block-collision-threshold: 0.3
+recipe:
+  # Layout for crafting. If you want no item in that slot, use a space ` `, e.g. `W W`
+  layout:
+    - 'W W'
+    - 'WWW'
+    - 'P P'
+  # Define each material below. Material name, e.g. `W` must be 1 capital letter
+  materials:
+    W:
+      type: WHITE_WOOL #Crafting Table
+    P:
+      type: OAK_PLANKS #Crafting Table
+parameters:
+  color:
+    default: RED
+    values: "%colors%"
+    description: Sofa color
+  wood:
+    default: OAK
+    values: "%wood types%"
+    description: Frame Wood Type
+parts: # You can override default parts from models here
+  cushion: # Part name from model
+    material: <color>_WOOL # Minecraft Material
+  sit: # Part name from model
+    material: <color>_WOOL
+    interaction: SIT
+  wood: # Part name from model
+    material: STRIPPED_<wood>_LOG # Minecraft Material
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+name: "Large Wardrobe"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A large Wardrobe."
+properties:
+  item:
+    type: BROWN_SHULKER_BOX
+  entity-collision-threshold: 0.2
+  block-collision-threshold: 0
+parts: # You can override default parts from models here
+  main: # Part name from model
+    material: STRIPPED_DARK_OAK_WOOD # Minecraft Material
+    interaction: STORAGE
+  frame: # Part name from model
+    material: STRIPPED_OAK_WOOD  # Minecraft Material
+  accent: # Part name from model
+    material: GOLD_BLOCK # Minecraft Material
+
+
+
+
+
+
+
+

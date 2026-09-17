@@ -1,0 +1,29 @@
+name: "Kitchen Fridge"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A 3x1 Fridge."
+properties:
+  item:
+    type: IRON_DOOR
+  entity-collision-threshold: 0.48
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  block: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  frame: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  stats: # Part name from model
+    material: GRAY_CONCRETE # Minecraft Material
+  background: # Part name from model
+    material: LIGHT_GRAY_CONCRETE # Minecraft Material
+  handle: # Part name from model
+    material: BLACK_CONCRETE # Minecraft Material
+    interaction: STORAGE
+
+
+
+
+
+
+
+

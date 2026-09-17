@@ -1,0 +1,23 @@
+name: "Glass Table"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A Glass Table."
+properties:
+  item:
+    type: CAULDRON
+  entity-collision-threshold: 0.6 
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  frame: # Part name from model
+    material: STONE_BRICKS # Minecraft Material
+  legs: # Part name from model
+    material: STONE_BRICKS # Minecraft Material
+  glass: # Part name from model
+    material: WHITE_STAINED_GLASS # Minecraft Material
+
+
+
+
+
+
+

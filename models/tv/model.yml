@@ -1,0 +1,28 @@
+name: "TV"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A simple TV."
+properties:
+  item:
+    type: PAINTING
+  
+  # Threshold Explanation:
+  # - Values range from 0.0 to 1.0, representing the volume overlap between a model and a block.
+  # - 0.0 = any overlap, no matter how small
+  # - 1.0 = complete overlap (entire block is filled)
+  # - e.g., 0.5 = half the block's volume is overlapped by the model
+
+  # Entity Collision Threshold:
+  # Determines when to place invisible barrier blocks for entity entityCollision.
+  # If the model occupies this percentage or more of a block's volume, a barrier is placed.
+  entity-collision-threshold: 0.3 # Set to 0 to disable barrier placement
+
+  # Block Collision Threshold:
+  # Controls whether a model can be placed based on its overlap with existing blocks.
+  # If the model would occupy more than this percentage of any existing block, placement is prevented.
+  block-collision-threshold: 0 # Set to 0 to allow placement regardless of overlap
+parts: # You can override default parts from models here
+  govde: # Part name from model
+    material: NETHERITE_BLOCK # Minecraft Material
+  ayak: # Part name from model
+    material: NETHERITE_BLOCK # Minecraft Material

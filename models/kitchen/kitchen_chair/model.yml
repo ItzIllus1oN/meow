@@ -1,0 +1,28 @@
+name: "Kitchen Chair"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A kitchen chair."
+properties:
+  item:
+    type: BIRCH_STAIRS
+  entity-collision-threshold: 0.6 
+  block-collision-threshold: 0.3 
+parameters:
+  wood:
+    default: OAK
+    values: "%wood types%"
+    description: Wood Legs
+parts: # You can override default parts from models here
+  top: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  legs: # Part name from model
+    material: STRIPPED_<wood>_LOG # Minecraft Material
+  sit:
+    interaction: SIT
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+name: "Backpack"
+author: "AdvancedPlugins"
+version: "1.0"
+type: COSMETIC
+description: "A cosmetic backpack."
+properties:
+  item:
+    type: BUNDLE
+parts:
+  material:
+    material: BLACK_CONCRETE_POWDER
+  decoration:
+    material: RED_CONCRETE

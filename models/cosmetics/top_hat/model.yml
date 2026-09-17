@@ -1,0 +1,13 @@
+name: "Top Hat"
+author: "AdvancedPlugins"
+version: "1.0"
+type: COSMETIC
+description: "A top hat."
+properties:
+  item:
+    type: NETHERITE_HELMET
+parts: # You can override default parts from models here
+  material:
+    material: BLACK_CONCRETE_POWDER
+  decoration:
+    material: RED_CONCRETE

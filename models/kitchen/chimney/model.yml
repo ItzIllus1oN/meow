@@ -1,0 +1,24 @@
+name: "Kitchen Chimney"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A kitchen chimney."
+properties:
+  item:
+    type: ANVIL
+  entity-collision-threshold: 0.8
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  block: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  buttons: # Part name from model
+    material: BLACK_CONCRETE # Minecraft Material
+  intake: # Part name from model
+    material: BLACK_SHULKER_BOX # Minecraft Material
+
+
+
+
+
+
+
+

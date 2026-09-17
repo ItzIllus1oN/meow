@@ -1,0 +1,21 @@
+name: "Kitchen Table"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A Kitchen Table."
+properties:
+  item:
+    type: SCAFFOLDING
+  entity-collision-threshold: 0.8
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  top: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  legs: # Part name from model
+    material: GRAY_SHULKER_BOX # Minecraft Material
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+name: "Large Open Kitchen Cabinet"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A large 2x1 open kitchen cabinet."
+properties:
+  item:
+    type: LIGHT_GRAY_SHULKER_BOX
+  entity-collision-threshold: 0.6 
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  block: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+    interaction: STORAGE
+  frame: # Part name from model
+    material: LIGHT_GRAY_CONCRETE # Minecraft Material
+  glass: # Part name from model
+    material: GLASS_PANE # Minecraft Material
+  handle: # Part name from model
+    material: BLACK_CONCRETE # Minecraft Material
+  food1: # Part name from model
+    material: MUTTON # Minecraft Material
+  food2: # Part name from model
+    material: CARROT # Minecraft Material
+  food3: # Part name from model
+    material: APPLE # Minecraft Material
+
+
+

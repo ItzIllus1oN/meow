@@ -1,0 +1,30 @@
+name: "Kitchen Sink"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A sink."
+properties:
+  item:
+    type: CAULDRON
+  entity-collision-threshold: 0.6 
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  block: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  frame: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  handle: # Part name from model
+    material: STRIPPED_OAK_LOG # Minecraft Material
+  water: # Part name from model
+    material: BLUE_ICE # Minecraft Material
+  blue: # Part name from model
+    material: BLUE_CONCRETE # Minecraft Material
+  red: # Part name from model
+    material: RED_CONCRETE # Minecraft Material
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+name: "3x3 Window"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A 3x3 window with frame."
+properties:
+  item:
+    type: GLASS
+  entity-collision-threshold: 0.1 
+  block-collision-threshold: 0
+parameters:
+  wood:
+    default: OAK
+    values: "%wood types%"
+    description: Frame Wood Type
+parts: # You can override default parts from models here
+  wood: # Part name from model
+    material: STRIPPED_<wood>_LOG # Minecraft Material
+
+
+
+
+
+
+
+

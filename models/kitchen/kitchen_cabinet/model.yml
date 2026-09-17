@@ -1,0 +1,17 @@
+name: "Small Kitchen Cabinet"
+author: "AdvancedPlugins"
+version: "1.0"
+description: "A small 1x1 kitchen cabinet."
+properties:
+  item:
+    type: WHITE_SHULKER_BOX
+  entity-collision-threshold: 0.01
+  block-collision-threshold: 0.3 
+parts: # You can override default parts from models here
+  block: # Part name from model
+    material: IRON_BLOCK # Minecraft Material
+  frame: # Part name from model
+    material: SMOOTH_QUARTZ # Minecraft Material
+  handle: # Part name from model
+    material: STRIPPED_OAK_LOG # Minecraft Material
+    interaction: STORAGE
