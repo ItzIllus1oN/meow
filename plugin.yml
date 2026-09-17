@@ -1,0 +1,35 @@
+name: AdvancedModels
+main: net.advancedplugins.models.Core
+version: 1.4.30
+api-version: 1.20
+author: AdvancedPlugins
+description: Create custom models with ease!
+
+softdepend:
+  - BlockLocker
+  - CoreProtect
+  - Factions
+  - FactionsOne
+  - FactionsUUID
+  - GadgetsMenu
+  - GriefPrevention
+  - GriefDefender
+  - PacketEvents
+  - PlotSquared
+  - ProtectionStones
+  - RestrictedCreative
+  - Towny
+  - LWC
+  - Vault
+  - Lands
+  - WorldGuard
+  - WorldGuardExtraFlags
+  - SuperiorSkyblock2
+  - Residence
+
+commands:
+  advancedmodels:
+    description: Main command for AdvancedModels
+    usage: /advancedmodels
+    permission: advancedmodels.command
+    aliases: [am, amodel, model, models]

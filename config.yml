@@ -1,0 +1,21 @@
+# AdvancedChat
+# Version: 1.4.30
+# Release date: 31/10/2025
+
+# Language
+locale: en
+
+# Model item for placing
+# Placeholders: %model name%, %author%, %version%, %description%, %material%
+item:
+  type: "%material%"
+  name: "%model name%"
+  lore:
+    - "&7%description%"
+
+cosmetics:
+  limit-per-player: 1 # How many cosmetics can be equipped by one player at once
+
+placing:
+  # Particle to play when a block is in the way. Set to '' to disable
+  block-in-the-way: 'ANGRY_VILLAGER'
